@@ -1,0 +1,46 @@
+GET http://localhost:3000/beerstyles/
+
+###
+
+GET http://localhost:3000/beerstyles/6276d14ad7070cd0e83e857c
+
+###
+
+DELETE  http://localhost:3000/beerstyles/6276cafb5200909954ffee04
+
+###
+
+POST http://localhost:3000/beerstyles
+Content-Type: application/json
+
+{
+  "styleGroup": 	"Hybrid/Mixed Lagers or Ale",
+  "styleOrigin": 	"Hybrid/Mixed",
+  "category": 	"American Wheat Beer",
+  "subCategory": 	"Light American Wheat Beer without Yeast",
+  "color": 	"Straw to light amber",
+  "clarity": 	"Chill haze is acceptable",
+  "perceivedMaltAromaAndFlavor": 	"Low to medium-low malt aroma and sweet malt ﬂavor is present",
+  "perceivedHopAromaAndFlavor": 	"Low to medium",
+  "perceivedBitterness": 	"Low to medium",
+  "fermentationCharacteristics": 	"Low to medium fruity esters are present. Diacetyl and phenolic, clove-like attributes should not be present.",
+  "body": 	"Low to medium",
+  "additionalNotes": 	"These beers can be fermented with either ale or lager yeast. The grist should include at least 30 percent malted wheat. No yeast ﬂavor should be evident. Because this style is packaged and served without yeast, no yeast should be evident in the mouthfeel.",
+  "originalGravityPlato": 	"9-13.8 °Plato",
+  "apparentExtractFinalGravityPlato": 	"1-4.1 °Plato",
+  "alcoholByVolume": 	"3.5%-5.6%",
+  "bitternessIbu": 	"10-35",
+  "colorSrm": 	"2-7",
+  "colorEbc": 	"4-14"
+}
+
+###
+
+PATCH http://localhost:3000/beerstyles/6276d14ad7070cd0e83e857c
+Content-Type: application/json
+
+{
+  "styleGroup": 	"Hunters Beers!",
+  "additionalNotes": 	"."
+
+}
