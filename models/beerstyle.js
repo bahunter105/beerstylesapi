@@ -17,14 +17,6 @@ const beerstyleSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  color:{
-    type: String,
-    required: true
-  },
-  clarity:{
-    type: String,
-    required: true
-  },
   perceivedMaltAromaAndFlavor:{
     type: String,
     required: true
@@ -37,15 +29,7 @@ const beerstyleSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  fermentationCharacteristics:{
-    type: String,
-    required: true
-  },
   body:{
-    type: String,
-    required: true
-  },
-  additionalNotes:{
     type: String,
     required: true
   },
@@ -53,7 +37,7 @@ const beerstyleSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  apparentExtractFinalGravityPlato:{
+  finalGravityPlato:{
     type: String,
     required: true
   },
@@ -72,7 +56,15 @@ const beerstyleSchema = new mongoose.Schema({
   colorEbc:{
     type: String,
     required: true
-  }
+  },
+  fermentationCharacteristics:{
+    type: String,
+    required: false
+  },
+  additionalNotes:{
+    type: String,
+    required: false
+  },
 })
 
 module.exports = mongoose.model('Beerstyle', beerstyleSchema)

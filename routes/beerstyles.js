@@ -25,20 +25,18 @@ router.post('/', async (req, res) => {
     styleOrigin: req.body.styleOrigin,
     category: req.body.category,
     subCategory: req.body.subCategory,
-    color: req.body.color,
-    clarity: req.body.clarity,
     perceivedMaltAromaAndFlavor: req.body.perceivedMaltAromaAndFlavor,
     perceivedHopAromaAndFlavor: req.body.perceivedHopAromaAndFlavor,
     perceivedBitterness: req.body.perceivedBitterness,
-    fermentationCharacteristics: req.body.fermentationCharacteristics,
     body: req.body.body,
-    additionalNotes: req.body.additionalNotes,
     originalGravityPlato: req.body.originalGravityPlato,
-    apparentExtractFinalGravityPlato: req.body.apparentExtractFinalGravityPlato,
+    finalGravityPlato: req.body.finalGravityPlato,
     alcoholByVolume: req.body.alcoholByVolume,
     bitternessIbu: req.body.bitternessIbu,
     colorSrm: req.body.colorSrm,
-    colorEbc: req.body.colorEbc
+    colorEbc: req.body.colorEbc,
+    fermentationCharacteristics: req.body.fermentationCharacteristics,
+    additionalNotes: req.body.additionalNotes
   })
 
   try {

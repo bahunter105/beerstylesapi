@@ -14,24 +14,22 @@ POST http://localhost:3000/beerstyles
 Content-Type: application/json
 
 {
-  "styleGroup": 	"Hybrid/Mixed Lagers or Ale",
-  "styleOrigin": 	"Hybrid/Mixed",
-  "category": 	"American Wheat Beer",
-  "subCategory": 	"Light American Wheat Beer without Yeast",
-  "color": 	"Straw to light amber",
-  "clarity": 	"Chill haze is acceptable",
-  "perceivedMaltAromaAndFlavor": 	"Low to medium-low malt aroma and sweet malt ﬂavor is present",
-  "perceivedHopAromaAndFlavor": 	"Low to medium",
-  "perceivedBitterness": 	"Low to medium",
-  "fermentationCharacteristics": 	"Low to medium fruity esters are present. Diacetyl and phenolic, clove-like attributes should not be present.",
-  "body": 	"Low to medium",
-  "additionalNotes": 	"These beers can be fermented with either ale or lager yeast. The grist should include at least 30 percent malted wheat. No yeast ﬂavor should be evident. Because this style is packaged and served without yeast, no yeast should be evident in the mouthfeel.",
-  "originalGravityPlato": 	"9-13.8 °Plato",
-  "apparentExtractFinalGravityPlato": 	"1-4.1 °Plato",
-  "alcoholByVolume": 	"3.5%-5.6%",
-  "bitternessIbu": 	"10-35",
-  "colorSrm": 	"2-7",
-  "colorEbc": 	"4-14"
+  "styleGroup":	"Ale Style",
+  "styleOrigin":	"Belgian and French Origin Categories",
+  "category":	"Belgian Fruit Beer",
+  "subCategory":	"Belgian-Style Fruit Beer",
+  "perceivedMaltAromaAndFlavor":	"None to Medium-high",
+  "perceivedHopAromaAndFlavor":	"Low to High",
+  "perceivedBitterness":	"Various",
+  "body":	"Various",
+  "originalGravityPlato":	"7.6-25.9 °P",
+  "finalGravityPlato":	"1.5-7.6 °P",
+  "alcoholByVolume":	"2.5%-12.0%",
+  "bitternessIbu":	"5-50",
+  "colorSrm":	"10-100",
+  "colorEbc":	"5-70",
+  "fermentationCharacteristics":	"Acidic bacterial fermentation attributes may be absent or may be present; if present, such attributes contribute to acidity and enhance fruity balance.",
+  "additionalNotes":	"Fruit aromas, ranging from subtle to intense, should be present and should not be overpowered by hop aromas. Belgian-Style Fruit Beers are fermented with traditional Belgian yeast, (Wit, Abbey, Farmhouse, etc.). Within the framework of these guidelines, coconut is deﬁned as a vegetable, and beers containing coconut should be categorized as Field Beers. Fruit or fruit extracts, used as adjuncts in either the mash, kettle, primary or secondary fermentation, provide harmonious fruit character ranging from subtle to intense. Classifying these beers can be complex. Wood vessels may be used for fermentation and aging, but wood-derived aromas and ﬂavors such as vanillin should not be present. Versions exhibiting attributes derived from wood or liquids previously aged in wood should be categorized in other Wood-Aged Beer categories."
 }
 
 ###
