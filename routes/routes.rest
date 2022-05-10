@@ -2,7 +2,7 @@ GET http://localhost:3000/beerstyles/
 
 ###
 
-GET http://localhost:3000/beerstyles/6276d14ad7070cd0e83e857c
+GET http://localhost:3000/beerstyles/627a4cdd9b995aeb952d0e3b
 
 ###
 
