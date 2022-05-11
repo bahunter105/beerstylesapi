@@ -15,7 +15,7 @@ db.once('open', () => console.log("Connected to Database"))
 app.use(express.json())
 
 // routes
-const beerstylesRouter = require('../routes/beerstyles')
+const beerstylesRouter = require('./routes/beerstyles')
 
 app.use('/beerstyles', beerstylesRouter) // ie for the routes of localhost:3000/beerstyles
 
