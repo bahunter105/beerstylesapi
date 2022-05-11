@@ -19,5 +19,6 @@ const beerstylesRouter = require('./routes/beerstyles')
 
 app.use('/beerstyles', beerstylesRouter) // ie for the routes of localhost:3000/beerstyles
 
+const port = process.env.PORT || 3000;
 
-app.listen(3000, console.log('server has started on MongoDB Cluster'))
+app.listen(port, console.log('server on!'))
