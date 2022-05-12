@@ -1,5 +1,5 @@
 const express = require('express')
-const beerstyle = require('../models/beerstyle')
+// const beerstyle = require('../models/beerstyle')
 const router = express.Router()
 const Beerstyle = require('../models/beerstyle')
 //  Get all

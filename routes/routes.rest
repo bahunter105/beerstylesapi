@@ -6,7 +6,7 @@ GET http://localhost:3000/beerstyles/627a4cdd9b995aeb952d0e3b
 
 ###
 
-DELETE  http://localhost:3000/beerstyles/6276cafb5200909954ffee04
+DELETE  http://localhost:3000/beerstyles/627cec7cde18e5531b0020cb
 
 ###
 
